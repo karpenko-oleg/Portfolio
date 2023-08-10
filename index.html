@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./img/header/logo.jpg" type="image/jpg">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <title>Портфолио</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header__logo">
+                <div class="header__logo__img">
+                    <img src="./img/header/logo.jpg" alt="">
+                </div>
+                <h1>Pine<span>Apple</span></h1>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li><a href="#home">Главная<span></span></a></li>
+                    <li><a href="#about">обо мне<span></span></a></li>
+                    <li><a href="#services">Услуги<span></span></a></li>
+                    <li><a href="#project">Проекты<span></span></a></li>
+                    <li><a href="#contact">Контакты<span></span></a></li>
+                </ul>
+            </nav>
+            <div class="header__btn"><span></span></div>
+        </div>
+        <main>
+            <div class="main__container" id="home">
+                <div class="main__title">
+                    <!-- <h3 class="main__title__subtitle">Привет, я</h3> -->
+                    <h2 class="main__title__suptitle">Разработка сайтов любой сложности под цели Вашего бизнеса! </h2>
+                    <p class="main__title__text">Карпенко Олег, фулстек-разработчик, специализирующийся на создании не только эстетически красивых, но и продающих сайтов, с использованием исключительно современных подходов</p>
+                    <button class="connection__btn"><a href="#contact" style="color:#fff;">Связаться со мной</a></button>
+                    <div class="main__title__social">
+                        <div class="main__title__social__vkontakte"><a href="https://vk.com/pineapplestud" target="_blank"><img src="./img/main/social/vkontakte.svg" alt="vkontakte"></a></div>
+                        <div class="main__title__social__telegram"><a href="https://t.me/+79297975091" target="_blank"><img src="./img/main/social/telegram.svg" alt="telegram"></a></div>
+                        <div class="main__title__social__linkedin"><a href="" target="_blank"><img src="./img/main/social/linkedin.svg" alt="linkedin"></a></div>
+                    </div>
+                </div>
+                <div class="main__photo">
+                    <div class="swiper mainPhoto">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="./img/main/myPhotoTitle1.jpg" alt="myPhotoTitle"></div>
+                          <div class="swiper-slide"><img src="./img/main/myPhotoTitle2.jpg" alt="myPhotoTitle"></div>
+                          <div class="swiper-slide"><img src="./img/main/myPhotoTitle7.jpg" alt="myPhotoTitle"></div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="main__about" id="about">
+                <h2 class="body__title">Обо мне:</h2>
+                <div class="main__about__title">
+                    <h4>1+</h4>
+                    <h3>Создаю сайты любой сложности с мобильной адаптацией, чтобы ваш сайт открывался корректно на любом устройстве! Я работаю на HTML, CSS, SCSS, JS и REACT. Также разрабатываю сайты под ключ, от продумывания дизайна до релиза на хостинге, seo оптимизации и подключения Яндекс Директа!</h3>
+                </div>
+                <div class="main__about__cards">
+                    <div class="main__about__cards__item">
+                        <div class="main__about__cards__item__img"><img src="./img/main/ruler&pen.svg" alt=""></div>
+                        <h4>UI & UX <br> DESIGNING</h4>
+                        <h3>Animation</h3>
+                        <H3>3D-modeling</H3>
+                    </div>
+                    <div class="main__about__cards__item">
+                        <div class="main__about__cards__item__img"><img src="./img/main/code.svg" alt=""></div>
+                        <h4>WEB <br> DEVELOPMENT</h4>
+                        <h3>HTML CSS JavaScript Git</h3>
+                        <h3>ReactJS Redux NodeJS PHP</h3>
+                    </div>
+                    <div class="main__about__cards__item">
+                        <div class="main__about__cards__item__img"><img src="./img/main/android.svg" alt=""></div>
+                        <h4>MOBILE <br>ADAPTATION</h4>
+                        <h3>Usability</h3>
+                        <h3>Understandable</h3>
+                    </div>
+                    <div class="main__about__cards__item">
+                        <div class="main__about__cards__item__img"><img src="./img/main/dopservices.svg" alt=""></div>
+                        <h4>WEB <br> PROMOTION</h4>
+                        <h3>SEO</h3>
+                        <h3>YANDEX DIRECT</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="main__services" id="services">
+                <h2 class="body__title">Мои услуги:</h2>
+                <div class="main__services__cards">
+                    <div class="main__services__cards__item">
+                        <div class="main__services__cards__item__img"><img src="./img/main/services/item1.svg" style="width: 80px;height: 80px;" alt=""></div>
+                        <h4>UI & UX DESIGNING</h4>
+                        <p>Выберем, обсудим красивый интерфейс вашего сайта</p>
+                    </div>
+                    <div class="main__services__cards__item">
+                        <div class="main__services__cards__item__img"><img src="./img/main/services/item2.svg" style="width: 80px;height: 80px;" alt=""></div>
+                        <h4>DEVELOPMENT</h4>
+                        <p>Я создаю красивый интерфейс с помощью HTML, CSS и JavaScript и ReactJS</p>
+                    </div>
+                    <div class="main__services__cards__item">
+                        <div class="main__services__cards__item__img"><img src="./img/main/services/item3.svg" style="width: 80px;height: 80px;" alt=""></div>
+                        <h4>LITERATE TEXTS</h4>
+                        <p>Напишем продающие тексты для вашего сайта</p>
+                    </div>
+                    <div class="main__services__cards__item">
+                        <div class="main__services__cards__item__img"><img src="./img/main/services/item4.svg" style="width: 80px;height: 80px;" alt=""></div>
+                        <h4>MOBILE ADAPTATION</h4>
+                        <p>Адаптивная и отзывчивая верстка сделает ваш сайт доступным для всех устройств</p>
+                    </div>
+                    <div class="main__services__cards__item">
+                        <div class="main__services__cards__item__img"><img src="./img/main/services/item5.svg" style="width: 80px;height: 80px;" alt=""></div>
+                        <h4>WEB PROMOTION</h4>
+                        <p>Продвижение вашего сайта в поисковых системах, привлечение трафика, увеличение продаж, улучшать репутацию, повышать узнаваемость компании и лояльность к ней</p>
+                    </div>
+                    <div class="main__services__cards__item">
+                        <div class="main__services__cards__item__img"><img src="./img/main/services/item6.svg" style="width: 80px;height: 80px;" alt=""></div>
+                        <h4>WEB SCRAPING</h4>
+                        <p>Я собиру контент и данные из Интернета, а затем использую по мере необходимости</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main__project" id="project">
+                <h2 class="body__title">Мои проекты</h2>
+                <p>За время работы веб-разработчиком я работал над многими проектами, вот несколько моих проектов</p>
+                <div class="main__project__slider project__slider">
+                    <div class="swiper project__slider">
+                        <div class="swiper-wrapper project__slider">
+                          <div class="swiper-slide project__slider">
+                            <div class="project__slider__item">
+                                <div class="project__slider__item__images"><img src="./img/main/project/клининг.jpg" alt=""></div>
+                                <h3>Клининговая компания</h3>
+                                <p>HTML CSS JS</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide project__slider">
+                            <div class="project__slider__item">
+                                <div class="project__slider__item__images"><img src="./img/main/project/наркоцентр.jpg" alt=""></div>
+                                <h3>Наркоцентр</h3>
+                                <p>HTML CSS JS</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide project__slider">
+                            <div class="project__slider__item">
+                                <div class="project__slider__item__images"><img src="./img/main/project/образование.jpg" alt=""></div>
+                                <h3>Онлайн-платформа</h3>
+                                <p>HTML CSS JS</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide project__slider">
+                            <div class="project__slider__item">
+                                <div class="project__slider__item__images"><img src="./img/main/project/Ресторан.jpg" alt=""></div>
+                                <h3>Ресторан</h3>
+                                <p>HTML CSS JS</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide project__slider">
+                            <div class="project__slider__item">
+                                <div class="project__slider__item__images"><img src="./img/main/project/цветы.jpg" alt=""></div>
+                                <h3>Цветы</h3>
+                                <p>HTML CSS JS</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="main__contact" id="contact">
+                <h2 class="body__title">Свяжись со мной</h2>
+                <div class="main__contact__wrapper">
+                    <div class="main__contact__send">
+                        <form action="https://formsubmit.co/1karpenko.oleg1@gmail.com" method="post" target="_blank">
+                            <div class="contact__send__name">
+                                <input type="text" placeholder="Имя" name="name" required>
+                            </div>
+                            <div class="contact__send__name">
+                                <input type="email" placeholder="Email" name="email" required>
+                            </div>
+                            <textarea class="main__contact__send__text" name="text" cols="30" rows="10" placeholder="Введите сообщение"></textarea>
+                            <input class="contact__send__btn"  type="submit">
+                        </form>
+                    </div>
+                    <div class="main__contact__social">
+                        <h3>Мои социальные сети:</h3>
+                        <div class="main__contact__social__item">
+                            <a href=""><img src="./img/main/social/instagram.svg" alt="instagram"></a>
+                            <a href="https://vk.com/pineapplestud" target="_blank"><img src="./img/main/social/vkontakte.svg" alt="vkontakte"></a>
+                            <a href="https://wa.me/79297975091?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%F0%9F%91%8B%20" target="_blank"><img src="./img/main/social/whatsapp.svg" alt="whatsapp"></a>
+                            <a href="https://t.me/+79297975091" target="_blank"><img src="./img/main/social/telegram.svg" alt="telegram"></a>
+                            <a href="mailto:1karpenko.oleg1@gmail.com"><img src="./img/main/social/gmail.svg" alt="gmail"></a>
+                            <a href=""><img src="./img/main/social/linkedin.svg" alt="linkedin"></a>
+                            <a href="https://github.com/karpenko-oleg" target="_blank"><img src="./img/main/social/github.svg" alt="github"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <h4>
+                @2023 PineApple Карпенко Олег Юрьевич 
+            </h4>
+            <h4>Все права защищены</h4>
+        </footer>
+    </div>
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/gsap.js"></script>
+    <script src="./js/app.js"></script>
+
+
+</body>
+</html>
