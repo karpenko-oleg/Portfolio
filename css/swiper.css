@@ -1,0 +1,30 @@
+.swiper.mainPhoto {
+    width: 400px;
+    height: 500px;
+}
+@media (max-width:420px) {
+    .swiper.mainPhoto {
+        width: 100%;
+    }
+}
+/* my project */
+.swiper.project__slider {
+    width: 100%;
+  }
+
+  .swiper-slide.project__slider{
+    background-position: center;
+    background-size: cover;
+    width: 340px;
+    height: 417px;
+  }
+
+  .swiper-slide.project__slider img {
+    display: block;
+    width: 100%;
+  }
+  @media (max-width:370px) {
+    .swiper-slide.project__slider{
+        width: 100%;
+    }
+  }
